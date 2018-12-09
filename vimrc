@@ -31,7 +31,7 @@ set softtabstop=2
 set expandtab
 
 " Set to show invisibles (tabs & trailing spaces) & their highlight color
-set list listchars=tab:»\ ,trail:·
+set list listchars=tab:Â»\ ,trail:Â·
 
 " Configure spell checking
 nmap <silent> <leader>p :set spell!<CR>
@@ -84,7 +84,7 @@ map <leader>i mmgg=G`m<CR>
 nnoremap <leader><space> :nohlsearch<cr>
 
 " Unsmart Quotes
-nnoremap guq :%s/\v[“”]/"/g<cr>
+nnoremap guq :%s/\v[â€œâ€]/"/g<cr>
 
 if has("autocmd")
   " StripTrailingWhitespaces
